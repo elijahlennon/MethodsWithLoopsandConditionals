@@ -9,16 +9,15 @@ namespace MethodsLoopsAndConditionals
         {
             Threes();
             IsEqual();
-            
-        }
-
-        private static void IsEqual()
-        {
-            throw new NotImplementedException();
+            PrintRange();
+            OddOrEven();
+            PositiveOrNegative();
+            AgeCheck();
         }
 
         //Write a method to accept two integers as parameterss and check whether they are equal or not - DONE
         public static bool IsEqual(int a, int b)
+            
         {
             if (a == b)
             {
